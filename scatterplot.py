@@ -11,3 +11,4 @@ sns.lmplot(tips, x="total_bill", y="tip");
 #Stratification by a third variable is supported by the argument `hue`:
 sns.scatterplot(tips, x="total_bill", y="tip", hue="time");
 sns.lmplot(tips, x="total_bill", y="tip", hue="time", col="smoker");
+#https://seaborn.pydata.org/generated/seaborn.scatterplot.html
