@@ -34,3 +34,6 @@ for source in energy_sources:
     plt.ylabel('Frequency')
     plt.grid(axis='y', linestyle='--', alpha=0.7)
     plt.show()
+
+
+#https://seaborn.pydata.org/generated/seaborn.histplot.html
