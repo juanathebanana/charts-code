@@ -19,3 +19,18 @@ plt.show()
 
 #With pandas' plot() syntax, we'll use kind='bar' or kind='barh' for vertical and horizontal bar charts, respectively.
 #https://www.analyticsvidhya.com/blog/2021/08/understanding-bar-plots-in-python-beginners-guide-to-data-visualization/
+
+
+
+#sns
+sns.barplot(data=tips, x="time", y="total_bill");
+sns.barplot(data=tips, x="time", y="total_bill",
+           facecolor="white",
+           edgecolor="black");
+sns.barplot(data=tips, x="time", y="total_bill", hue="sex");
+sns.barplot(data=tips, x="time", y="total_bill", hue="sex",
+           errorbar="sd");
+#The `errorbar` argument can be used to show standard deviation instead of confidence intervals:
+#Horizontal bar plots are drawn simply changing the `x` and `y` arguments:
+sns.barplot(data=tips, y="time", x="total_bill", hue="sex",
+           errorbar="sd")
