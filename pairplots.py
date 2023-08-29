@@ -2,3 +2,4 @@
 sns.pairplot(iris, hue="species", height=3); # height = h. (inches) of each facet
 
 #https://seaborn.pydata.org/generated/seaborn.pairplot.html
+#https://www.geeksforgeeks.org/python-seaborn-facetgrid-method/
